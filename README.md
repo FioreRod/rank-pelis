@@ -10,10 +10,10 @@ Ideal para cinéfilos que quieran llevar su propio ranking personalizado de pel�
 
 ## 🚀 Funcionalidades
 
-🔍 Búsqueda de películas por nombre (usando la API de OMDb).
-⭐ Agregar hasta 5 películas a tu ranking.
-🎨 Interfaz interactiva.
-🎲 Sistema de puntaje y orden por preferencia.
+- Búsqueda de películas por nombre (usando la API de OMDb).
+- Agregar hasta 5 películas a tu ranking.
+- Interfaz interactiva.
+- Sistema de puntaje y orden por preferencia.
 
 ---
 
