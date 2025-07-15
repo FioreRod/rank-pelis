@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+  <link rel="stylesheet" href="./css/style.css"/>
+  <title>Comparador de Películas</title>
+</head>
+
+<body>
+  <div class="parent">
+    <!-- Título y descripción -->
+    <div class="div1 glass-eff">
+      <h1>Elegí tu película favorita</h1>
+      <h3>
+        Resumen: Este "rankeador" permite al usuario ingresar 5 películas, y luego las compara para saber cuál le gustó
+        más. <br>
+        Cada elección suma puntos, y al final se ordenan según el puntaje obtenido.
+      </h3>
+    </div>
+
+    <!-- Ingreso de nombre y películas -->
+    <div class="div2 glass-eff">
+      <h3 id="saludo">¡Hola!</h3>
+      <p>Aquí ingresarás el nombre de las 5 películas a rankear.</p>
+
+      <label for="name-peli">Película:</label>
+      <input type="text" id="name-peli" placeholder="Ingresá una película" autocomplete="off" />
+      <button id="btn-agregar">Agregar película</button>
+      <div id="sugerencias" class="sugerencias"></div>
+
+
+      <p>Listado:</p>
+      <ul id="lista-peliculas">
+        <li id="peli-1">Película 1:</li>
+        <li id="peli-2">Película 2:</li>
+        <li id="peli-3">Película 3:</li>
+        <li id="peli-4">Película 4:</li>
+        <li id="peli-5">Película 5:</li>
+      </ul>
+    </div>
+
+    <!-- Comparación -->
+    <div class="peli1 glass-eff center">
+      <div id="titulo-peli-1"></div>
+      <button id="btn-elegir-1">Elegir esta película</button>
+    </div>
+
+    <div class="peli2 glass-eff center">
+      <div id="titulo-peli-2"></div>
+      <button id="btn-elegir-2">Elegir esta película</button>
+    </div>
+
+    <!-- Último ranking -->
+    <div class="div7 glass-eff">
+      <div id="ranking-nuevo"></div>
+      <div id="ranking-anterior"></div>
+    </div>
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+  <script type="module" src="./js/main.js"></script>
+
+</body>
+
+</html>

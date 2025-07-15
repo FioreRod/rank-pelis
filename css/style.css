@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap');
+
+body{
+    background-image: url(https://wallpapers.com/images/hd/cute-aesthetic-pc-8-bit-pastel-city-afhdsg5dm28kn3gp.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    font-family: 'Quicksand', sans-serif;
+    
+}
+
+.center{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.glass-eff{
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    --webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.37);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 32px;
+}
+
+h1, h2{
+    text-align: center;
+}
+
+h3{
+    font-weight: 400;
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+}
+
+p.desempate {
+  color: #e94e77;
+  font-weight: bold;
+  font-size: 1.1em;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+
+div{
+    padding: 15px;
+}
+
+img{
+    margin: 20% 0px;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 6px;
+}
+    
+.div1 {
+    background-color: rgba(245, 245, 245, 0.05);
+    grid-column: span 6 / span 6;
+}
+
+.div2 {
+   background-color: rgba(245, 245, 245, 0.05);
+    grid-column: span 2 / span 2;
+    grid-row: span 4 / span 4;
+    grid-row-start: 2;
+}
+
+.peli1 {
+   background-color: rgba(245, 245, 245, 0.05);
+    grid-row: span 3 / span 3;
+    grid-column-start: 3;
+    grid-row-start: 2;
+    display: flex;
+    justify-content: center;
+}
+
+.peli2 {
+   background-color: rgba(245, 245, 245, 0.05);
+    grid-row: span 3 / span 3;
+    grid-column-start: 4;
+    grid-row-start: 2;
+    display: flex;
+    justify-content: center;
+}
+
+.div7 {
+   background-color: rgba(245, 245, 245, 0.05);
+    grid-column: span 2 / span 2;
+    grid-row: span 4 / span 4;
+    grid-column-start: 5;
+    grid-row-start: 2;
+}
+
+input{
+    background-color: white;
+}
+
+button{
+    background-color: #E5ADC6;
+}
+        
+button, input{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    color: black;
+}
+
+.sugerencias {
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  max-width: 80%;
+  margin-top: 5px;
+  overflow-y: hidden;
+  position: absolute;
+  width: 90%;
+  z-index: 10;
+}
+
+.sugerencias div {
+  padding: 8px;
+  cursor: pointer;
+}
+
+.sugerencias div:hover {
+  background-color: #eee;
+}
